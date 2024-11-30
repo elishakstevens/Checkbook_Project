@@ -4,20 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1420701c-00f3-40c5-81b8-b037dfedb7e4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Checkbook_Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Checkbook_Project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Checkbook_Project/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Checkbook_Project/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Checkbook_Project/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Checkbook_Project/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+    <list default="true" id="1420701c-00f3-40c5-81b8-b037dfedb7e4" name="Changes" comment="checkbook/banking website">
+      <change afterPath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/templates/checkbook/AddTransaction.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/templates/checkbook/AddTransaction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/templates/checkbook/BalanceSheet.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/templates/checkbook/BalanceSheet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/templates/checkbook/CreateNewAccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/templates/checkbook/CreateNewAccount.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/templates/checkbook/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/templates/checkbook/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlueBirdBanking/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/BlueBirdBanking/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,28 +24,39 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2pVhKLCZD2C6lsNboEjofGEA8JN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\elish\PycharmProjects\Checkbook_Project\BlueBirdBanking\Checkbook\templates" />
+      <recent name="C:\Users\elish\PycharmProjects\Checkbook_Project\BlueBirdBanking\Checkbook\templates\checkbook" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Checkbook_Project" type="Python.DjangoServer" factoryName="Django server">
       <module name="Checkbook_Project" />
@@ -91,11 +99,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732857084360</updated>
-      <workItem from="1732857085900" duration="1361000" />
+      <workItem from="1732857085900" duration="1439000" />
+      <workItem from="1732994237319" duration="6955000" />
     </task>
+    <task id="LOCAL-00001" summary="checkbook/banking website">
+      <option name="closed" value="true" />
+      <created>1732858513573</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732858513573</updated>
+    </task>
+    <task id="LOCAL-00002" summary="checkbook/banking website">
+      <option name="closed" value="true" />
+      <created>1732858522164</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732858522164</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="checkbook/banking website" />
+    <option name="LAST_COMMIT_MESSAGE" value="checkbook/banking website" />
   </component>
 </project>
