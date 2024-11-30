@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1420701c-00f3-40c5-81b8-b037dfedb7e4" name="Changes" comment="checkbook/banking website">
-      <change afterPath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/forms.py" afterDir="false" />
+    <list default="true" id="1420701c-00f3-40c5-81b8-b037dfedb7e4" name="Changes" comment="adding button functionality and creating balance sheet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/templates/checkbook/AddTransaction.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/templates/checkbook/AddTransaction.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/templates/checkbook/BalanceSheet.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/templates/checkbook/BalanceSheet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/templates/checkbook/CreateNewAccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/templates/checkbook/CreateNewAccount.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/templates/checkbook/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/templates/checkbook/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlueBirdBanking/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/BlueBirdBanking/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +94,7 @@
       <updated>1732857084360</updated>
       <workItem from="1732857085900" duration="1439000" />
       <workItem from="1732994237319" duration="6955000" />
+      <workItem from="1733001270250" duration="3128000" />
     </task>
     <task id="LOCAL-00001" summary="checkbook/banking website">
       <option name="closed" value="true" />
@@ -118,14 +112,42 @@
       <option name="project" value="LOCAL" />
       <updated>1732858522164</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding button functionality and creating balance sheet">
+      <option name="closed" value="true" />
+      <created>1733001326180</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733001326180</updated>
+    </task>
+    <task id="LOCAL-00004" summary="adding button functionality and creating balance sheet">
+      <option name="closed" value="true" />
+      <created>1733001332439</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733001332439</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="checkbook/banking website" />
-    <option name="LAST_COMMIT_MESSAGE" value="checkbook/banking website" />
+    <MESSAGE value="adding button functionality and creating balance sheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding button functionality and creating balance sheet" />
   </component>
 </project>

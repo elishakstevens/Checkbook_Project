@@ -7,7 +7,7 @@
     <div class="text-center">
         <h5>Manage your existing account!</h5>
         <!-- Django form including a dropdown list of accounts-->
-        <form>
+        <form method="POST">
             <label id="index-label">Choose Account:</label>
             {% csrf_token %}
             {{ form.account }}
