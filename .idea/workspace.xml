@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1420701c-00f3-40c5-81b8-b037dfedb7e4" name="Changes" comment="adding button functionality and creating balance sheet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/templates/checkbook/BalanceSheet.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/templates/checkbook/BalanceSheet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/templates/checkbook/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlueBirdBanking/Checkbook/templates/checkbook/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +15,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;elishakstevens&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/elishakstevens/Checkbook_Project.git&quot;,
+    &quot;accountId&quot;: &quot;54b94384-6c2c-470b-9079-d3b9ac7aa680&quot;
+  }
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -94,7 +104,10 @@
       <updated>1732857084360</updated>
       <workItem from="1732857085900" duration="1439000" />
       <workItem from="1732994237319" duration="6955000" />
-      <workItem from="1733001270250" duration="3128000" />
+      <workItem from="1733001270250" duration="3872000" />
+      <workItem from="1733012197836" duration="1203000" />
+      <workItem from="1733013932642" duration="244000" />
+      <workItem from="1733016298270" duration="2987000" />
     </task>
     <task id="LOCAL-00001" summary="checkbook/banking website">
       <option name="closed" value="true" />
